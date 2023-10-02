@@ -1,0 +1,117 @@
+/* style.css */
+
+/* Reset default padding and margin for body and paragraphs */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+/* css styles for the logo image */
+#header img {
+    width:100px; 
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+/* Set font size and color for headings */
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+/* Style navigation links */
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #ffcc00;
+}
+
+/* Set padding and margin for content section */
+section {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Style footer */
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:#fff;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+/*css styles for the dody section */
+body {
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+/* Styles for the about section */
+#about-section {
+    margin-top: 50px; /* Add margin to top for spacing */
+    text-align: center; /* Center align the content within the section */
+}
+
+#about-section h2 {
+    font-size: 24px; /* Set the font size for the section heading */
+    color: #000; /* Set the text color */
+    margin-bottom: 20px; /* Add margin to bottom for spacing */
+}
+
+#about-section p {
+    font-size: 18px; /* Set the font size for the section paragraph */
+    color: #000; /* Set the text color */
+    margin-bottom: 10px; /* Add margin to bottom for spacing */
+}
+
+#about-section ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding for the list */
+    margin-top: 20px; /* Add margin to top for spacing */
+}
+
+#about-section ul li {
+    font-size: 16px; /* Set the font size for list items */
+    color: #000; /* Set the text color */
+    margin-bottom: 5px; /* Add margin to bottom for spacing */
+    text-align: left; /* Align the list items to left */
+}

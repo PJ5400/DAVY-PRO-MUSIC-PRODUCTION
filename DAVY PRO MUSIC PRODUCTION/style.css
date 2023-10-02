@@ -1,0 +1,98 @@
+/* Reset default padding and margin */
+body, form, ul {
+    padding: 0;
+    margin: 0;
+}
+/* css styles for the logo image */
+#header img {
+    width:100px; 
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+/*css styles for the image */
+.homepage-image {
+    margin-top: 50;
+    text-align: center;
+}
+.homepage-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+/* Style the form */
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:#fff;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+/*css styles for the dody section */
+body {
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-position: center;
+}

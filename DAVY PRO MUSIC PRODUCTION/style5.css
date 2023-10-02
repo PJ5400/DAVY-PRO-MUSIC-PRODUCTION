@@ -1,0 +1,165 @@
+/* style.css */
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+/* css styles for the logo image */
+#header img {
+    width:100px; 
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+/* Set live performance page styles */
+.live-performance-page {
+    padding: 20px;
+}
+
+.live-performance-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.live-performance-page .performance-item {
+    margin-bottom: 20px;
+}
+
+.live-performance-page .performance-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.live-performance-page .performance-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.live-performance-page .performance-item p {
+    margin-bottom: 5px;
+}
+
+.live-performance-page .performance-item a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.live-performance-page .performance-item a:hover {
+    background-color: #222;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:#fff;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+/*css styles for the dody section */
+body {
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+/* Style for the entire live section */
+#live-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Style for the upcoming events list */
+  #upcoming-events {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for each event in the upcoming events list */
+  #upcoming-events li {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the performance highlights section */
+  #performance-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for each performance highlight */
+  #performance-highlights img {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the band information section */
+  #band-info {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the tour dates list */
+  #tour-dates {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for each city in the tour dates list */
+  #tour-dates li {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the booking information section */
+  #booking-info {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the fan interaction section */
+  #fan-interaction {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the media coverage section */
+  #media-coverage {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the merchandise section */
+  #merchandise {
+    margin-bottom: 30px;
+  }

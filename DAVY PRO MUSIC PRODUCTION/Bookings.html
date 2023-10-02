@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Booking</title>
+    <link rel="stylesheet" type="text/css" href="style6.css">
+</head>
+
+<body>
+    <div id="header">
+        <img src="image/logo.png" alt="DavyPro Music Logo">
+    </div>
+    <h1>Bookings-DavyPro Music</h1>
+    <nav>
+        <ul>
+            <li><a href="Home.html" class="dashboard-btn" id="homeBtn">Home</a></li>
+            <li><a href="About.html" class="dashboard-btn" id="homeBtn">About</a></li>
+            <li><a href="contact.html" class="dashboard-btn" id="homeBtn">Contact</a></li>
+            <li><a href="session.html" class="dashboard-btn" id="homeBtn">Session</a></li>
+        </ul>
+    </nav>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="event_date">Event Date:</label>
+        <input type="date" id="event_date" name="event_date" required>
+        <label for="event_type">Event Type:</label>
+        <input type="text" id="event_type" name="event_type" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        <p>&copy; 2023.DavyPro Music. All rights reserved. | Contact: booking@davypro.com</p>
+        <p>powered by Peter Juma</p>
+    </footer>
+</body>
+
+</html>
